@@ -1,5 +1,5 @@
 # SaskInteractive98
-Saskatchewan Interactive 1998: A Guide to tjhe Natural Resources of the Province
+Saskatchewan Interactive 1998: A Guide to the Natural Resources of the Province
 
 Educational content produced by GlobalEd Multimedia Technologies in 1998. I have no affiliation with GlobalEd (if they still exist).
 
