@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+	<title>SASKATCHEWAN INTERACTIVE WELCOME</title> 
+	<meta name="Author-Corporate" content="GlobalED Multimedia Inc.">
+	<meta name="Author-Web" content="Lindsay Blair, Jeff Bettany">
+	<meta name="Author-Photography" content="Lindsay Blair">
+	<meta name="Author-Text" content="Janis Shirriff, Jeff Bettany">
+	<meta name="Author-Editing" content="Janis Shirriff, Jeff Bettany">
+	<meta name="Publisher" content="Lindsay Blair, Jeff Bettany">
+	<meta name="Content-Language" content="en-CA">
+	<meta name="Coverage" content="Worldwide">
+
+<!-- # # # # # # JAVASCRIPT SOURCE FILE # # # # # # -->
+<script language="JavaScript">
+
+//check if image object is supported, then preload images
+        
+        if (document.images) {
+  		
+  		ButtonImg = new Image(110,67);
+  			ButtonImg.src = "./interactive/media/stuff/button1.gif";
+  			ButtonImg_on = new Image(110,67);
+  			ButtonImg_on.src = "./interactive/media/stuff/button2.gif";
+
+
+        }
+// function to change images to hi_on state
+function hi_on(imgName) {
+        if (document.images) {
+            document[imgName].src = eval(imgName + "_on.src");
+        }
+}
+// function to change images to hi_off state
+function hi_off(imgName) {
+        if (document.images) {
+            document[imgName].src = eval(imgName + ".src");
+        }
+}
+
+
+</script>	 
+</head>
+<body background="interactive/media/stuff/bg_welcome.jpg">
+<!-- # # # # # # # # # # MASTERTABLE BEGIN # # # # # # # # # # -->
+<table width="630">
+	<tr align="center" valign="bottom">
+		<td width= 630 align="center" valign="bottom" height="375" >
+<!-- ENTER BUTTON -->
+	<a href="./interactive/index.html" onmouseout="hi_off('ButtonImg')" onmouseover="hi_on('ButtonImg')"> 
+		<img src="./interactive/media/stuff/button1.gif" height="50" width="200" vspace="4" border="0" name="ButtonImg" alt="Enter...">
+	</a> 
+	</td></tr>
+</table>
+</body>
+</html>
