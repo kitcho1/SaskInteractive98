@@ -9,3 +9,4 @@ Issues that I've encountered
 - QTVR (QuickTime VR .qtvr) videos definately do not play natively, need to be converted
 - All audio content (.mov yet again) does not play natively
 
+Visit https://kitcho1.github.io/SaskInteractive98/ to explore this educational guide!
